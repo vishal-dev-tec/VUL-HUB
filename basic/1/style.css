@@ -1,0 +1,40 @@
+body {
+  background: #000; /* pure black background */
+  font-family: Arial, sans-serif;
+  color: #fff; /* white text */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.glass-container {
+  background: rgba(255, 255, 255, 0.05); /* subtle white transparency */
+  border-radius: 15px;
+  padding: 20px;
+  backdrop-filter: blur(12px);
+  box-shadow: 0 0 25px rgba(255, 255, 255, 0.6); /* aura glow */
+  width: 500px;
+  text-align: center;
+  color: #fff;
+}
+
+input, button {
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  background: rgba(255, 255, 255, 0.1);
+  color: #fff;
+}
+
+button {
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: rgba(255, 255, 255, 0.3);
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.8); /* aura hover glow */
+}
